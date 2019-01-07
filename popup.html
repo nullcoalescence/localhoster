@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            height: 200px;
+            width: 200px;
+            font-size: 120%;
+        }
+        #port-field {
+            padding-right: 4px;
+            font-family: monospace;
+        }
+        #go-btn {
+            padding: 2px;
+        }
+    </style>
+</head>
+    <body>
+        <h2>localhoster</h2>
+        <form>
+            Enter a port or leave blank to not use a port:<br>
+            <input autofocus id="port-field" type="number" size="10">
+            <button id="go">Go</button>
+        </form>
+        <p>
+            <button id="help">Help</button>
+            <button id="about">About</button>
+            <button id="source">Source code</button>
+        </p>
+        <script src="localhoster.js"></script>
+    </body>
+</head>
+</html>

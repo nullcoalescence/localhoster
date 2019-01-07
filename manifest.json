@@ -1,0 +1,12 @@
+{
+    "name": "localhoster",
+    "version": "1.0",
+    "description": "Displays a helpful dialog to open http://localhost with a specified port",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://localhost:*/*"
+    ],
+    "manifest_version": 2
+}
